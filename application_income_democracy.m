@@ -1,5 +1,5 @@
 % APPLICATION ACEMOGLU & AL (2008)
-% load and clean data
+% load and clean data (http://economics.mit.edu/files/5000)
 M = csvread('outcome.csv');
 M = rmmissing(M); 
 [N, T] = size(M);
