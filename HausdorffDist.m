@@ -1,6 +1,6 @@
 function [hd D] = HausdorffDist(P,Q,lmf,dv)
 % Calculates the Hausdorff Distance between P and Q
-%
+% Ref:https://www.mathworks.com/matlabcentral/fileexchange/26738-hausdorff-distance.
 % hd = HausdorffDist(P,Q)
 % [hd D] = HausdorffDist(P,Q)
 % [hd D] = HausdorffDist(...,lmf)
