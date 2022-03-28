@@ -41,7 +41,7 @@
                  warning('Some units have less than two observed outcomes');
              end
              s = permute(Y-permute(Y,[3 2 1]),[1 3 2]);
-             S = max(abs(mean(s.*permute(s,[5 4 3 2 1]),3)),[],[4 5]);
+             S = max(abs(nanmean(s.*permute(s,[5 4 3 2 1]),3)),[],[4 5]);
              % compute the W matrix
              W = (S<=c);     
              % obtain estimates for G and group labels
