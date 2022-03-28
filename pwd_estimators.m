@@ -58,7 +58,7 @@
              % ...TBD...
              % cont = true
              end
-             if cont*realloc==true  
+             if cont*realloc  
                  % re-allocate units to singleton groups if needed and
                  % specified
                  deficient_group = [];
