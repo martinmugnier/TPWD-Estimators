@@ -9,7 +9,7 @@ res = zeros(length(N_seq),4,length(G_seq),6,B); % matrix of results
 
 sigma = 1; % noise
 c = 2;
-kappa = 4/5;
+kappa = 1/2;
 
 % Run simulations (run one DGP at a time, by uncommenting)
 N_max = max(N_seq);
