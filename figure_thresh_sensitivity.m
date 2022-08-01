@@ -9,7 +9,7 @@ c_seq = linspace(0.1,20,40);
 G_seq = [2 3 4];
 sig_seq = [1/4 1/2 1];
 c = 2; 
-kappa = 4/5;
+kappa = 1/2;
 res = zeros(3, length(T_seq),length(c_seq),5,B,3);
 
 % Run simulations
