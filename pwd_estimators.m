@@ -33,7 +33,7 @@
              %                    panel data outcome; 
              %         c        : scalar threshold;           
              [N,T] = size(Y);
-             if sum(isnan(M),'all')>0
+             if sum(isnan(Y),'all')>0
                  warning(['Missing values detected. A small value of c may result in a lack of identification.']);
              end
              if any(sum(isnan(Y),2)>T-2)
