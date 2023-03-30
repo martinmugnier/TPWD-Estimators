@@ -73,7 +73,7 @@ for b=1:B
     Y = Y.*(Y<=ones(N,T)) + (Y>ones(N,T));
     c_id = 1;
     for c=c_seq
-        [G_hat,grp,grp_effects] = pwd_estimators.pwd1(Y,c);
+        [G_hat,grp,grp_effects] = pwd_pureGFE(Y,c);
         HD = HausdorffDist(grp_effects, true_signal(b,:)');
         res(c_id,:, b) = [G_hat,(G_hat==G_seq(g)),HD];
         c_id = c_id + 1;
