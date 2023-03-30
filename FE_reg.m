@@ -1,5 +1,5 @@
 function[grp_effects] = FE_reg(Y,grp_labels,timevar)
-    % This function returns the OLS regression of the outcome on 
+    % This function returns the OLS regression of outcome Y on 
     % group OR group*time fixed effects. 
     % TBD: adapt to allow for regressors.
     % INPUTS:
