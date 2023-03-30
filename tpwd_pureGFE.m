@@ -1,7 +1,7 @@
         
  function [G,grp_labels,grp_effects] = tpwd_pureGFE(Y,c)
      % This function returns the TPWD estimator.
-     % INPUTS: Y        : NxT array of possibly unbalanced
+     % INPUTS: Y        : N x T array of possibly unbalanced
      %                    panel data outcome; 
      %         c        : scalar threshold;           
      [N,T] = size(Y);
