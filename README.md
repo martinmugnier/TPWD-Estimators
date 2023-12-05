@@ -4,7 +4,7 @@ This folder contains MATLAB code for
 
    - Step 1 of the TPWD estimator using the regularized nuclear norm estimator described in Section 2.1 or the nuclear norm estimator of Moon and Weidner (2019):  `nucnorm_reg_obj.m`, `nucnorm_reg.m`, `nucnorm_obj.m`, and `nucnorm.m’.
    - Step 2 of the TPWD estimator as described in Sections 2.2 and 2.3: `tpwd_pureGFE.m`.
-   - Step 3 of the TPWD estimator as described in Section 2.4: `FE_reg_withcov.m’ and `FE_reg_nocov.m`.
+   - Step 3 of the TPWD estimator as described in Section 2.4: `FE_reg_withcov.m` and `FE_reg_nocov.m`.
    - Computing analytical standard errors based on large N,T estimation of the asymptotic variance and estimated groups: `compute_GFE_analytical_cov.m`.
    - Assessing clustering accuracy in Monte Carlo experiments: `clustering_accuracy.m`.
    - Computing an approximation of Bonhomme and Manresa (2015)'s GFE estimator without covariates based on Lloyd's algorithm: `GFE.m`.
