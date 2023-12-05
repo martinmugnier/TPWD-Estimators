@@ -11,7 +11,7 @@ This folder contains MATLAB code for
 
 This code is used by  `tables_1_and_2_and_S1_to_S6.m`, `tables_3_and_4.m`, `tables_S7_and_S8_unit_specific_effect.m`, and  `tables_S9_and_S10_lagged_outcome.m` to produce the Monte Carlo results (Tables 1-4 and S1-10), and by `application_income_democracy.m` to produce the application results (Table 5 and Figures 1 and 2). Tables S12-14 and Figures S1-6 can be obtained by a simple adaptation of the code.
 
-To replicate the results of the paper, first ensure all files are located in the same folder as well as the data `acemoglu_balancedsample.csv`. This data is obtained after downloading `5yearpanel.dta` from `https://www.aeaweb.org/articles?id=10.1257/aer.98.3.808.` and running the STATA code `export_acemoglu_data.do`. 
+To replicate the results of the paper, first ensure all files are located in the same folder as well as the data `acemoglu_balancedsample.csv`. This data is obtained after downloading `5yearpanel.dta` from https://www.aeaweb.org/articles?id=10.1257/aer.98.3.808 and running the STATA code `export_acemoglu_data.do`. 
 
 The code is made available to use at your own risk (please cite the Working Paper version available here: https://arxiv.org/pdf/2203.08879.pdf).
 
