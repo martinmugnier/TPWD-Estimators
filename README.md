@@ -64,8 +64,8 @@ To replicate the results of the paper:
   - `TPWD_clustering_large_squared.m`
   
 - **Step 3** (Section 2.4):
-  - `FE_reg_withcov.m`\
-  - `FE_reg_nocov.m`\
+  - `FE_reg_withcov.m`
+  - `FE_reg_nocov.m`
 
 ### Functions for the grouped fixed-effects estimator:
   - `BM_algo1.m`
