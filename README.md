@@ -19,7 +19,7 @@ For feedback or suggestions, feel free to contact me at: martin(dot)mugnier(at)p
   - `MW_nucnormreg_estimator_prox.m` (Algorithm 2)
   - `MW_nucnormreg_estimator_optim.m` (accelerated version described after Algorithm 2)
 
-- **Grouped fixed effects**:
+- **Grouped fixed-effects**:
   - `BM_algo1_multiple_init.m`
   - `BM_algo1_multiple_init_without_covariates.m`
 
@@ -29,7 +29,7 @@ For feedback or suggestions, feel free to contact me at: martin(dot)mugnier(at)p
 - **Post-spectral**:
   - `CM_post_spectral_estimator.m`
 
-- **Interactive fixed effects least squares**:
+- **Interactive fixed-effects least squares**:
   - `LS_factor.m`
   - `LS_factor_nnr_init.m`
 
