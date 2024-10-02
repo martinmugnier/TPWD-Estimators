@@ -1,10 +1,10 @@
 # README
 
-This folder contains the MATLAB code for the paper "A Simple and Computationally Trivial Estimator for Grouped Fixed Effects Models" (Mugnier, 2022).\
+This folder contains the MATLAB code for the paper "A Simple and Computationally Trivial Estimator for Grouped Fixed Effects Models" (Mugnier, 2022).
 
-The code is made available to use at your own risk. If you use this code, please cite the Working Paper version available here: https://arxiv.org/abs/2203.08879.\
+The code is made available to use at your own risk. If you use this code, please cite the Working Paper version available here: https://arxiv.org/abs/2203.08879.
 
-For feedback or suggestions, feel free to contact me at: martin(dot)mugnier(at)psemail(dot)eu.\
+For feedback or suggestions, feel free to contact me at: martin(dot)mugnier(at)psemail(dot)eu.
 
 ## Estimators
 
