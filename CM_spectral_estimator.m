@@ -1,6 +1,6 @@
 function beta = CM_spectral_estimator(Y,X,GM)
-    % CM_SPECTRAL_ESTIMATOR Return the spectral estimator of Chetverikov 
-    % and Manresa (2022).
+    % CM_SPECTRAL_ESTIMATOR Return the spectral estimator proposed in
+    % Chetverikov and Manresa (2022).
     %
     % Author: Martin Mugnier
     % Email: martin.mugnier (at) psemail (dot) eu
